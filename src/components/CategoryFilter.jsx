@@ -14,11 +14,11 @@ function CategoryFilter({ categories, selectedCategory, setSelectedCategory }) {
       {/* Category buttons */}
       {categories.map(category => (
         <button
-          key={category.slug || category.name || category}  // unique key
-          className={`btn btn-outline-primary mx-1 ${selectedCategory === (category.slug || category.name || category) ? 'active' : ''}`}
-          onClick={() => setSelectedCategory(category.slug || category.name || category)}
+          key={category}  // unique key
+          className={`btn btn-outline-primary mx-1 ${selectedCategory === category ? 'active' : ''}`}
+          onClick={() => setSelectedCategory(category)}
         >
-          {category.name || category}  {/* Render name or string */}
+          {category}  {/* Render the string directly */}
         </button>
       ))}
     </div>
