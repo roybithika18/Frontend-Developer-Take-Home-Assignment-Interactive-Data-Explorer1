@@ -12,13 +12,13 @@ function CategoryFilter({ categories, selectedCategory, setSelectedCategory }) {
       </button>
 
       {/* Category buttons */}
-      {categories.map(category => (
+      {categories.map((category) => (
         <button
-          key={category}  // unique key
-          className={`btn btn-outline-primary mx-1 ${selectedCategory === category ? 'active' : ''}`}
-          onClick={() => setSelectedCategory(category)}
+          key={category.slug}   // ✅ unique key (slug)
+          className={`btn btn-outline-primary mx-1 ${selectedCategory === category.slug ? 'active' : ''}`}
+          onClick={() => setSelectedCategory(category.slug)}
         >
-          {category}  {/* Render the string directly */}
+          {category.name}  {/* ✅ show readable category name */}
         </button>
       ))}
     </div>

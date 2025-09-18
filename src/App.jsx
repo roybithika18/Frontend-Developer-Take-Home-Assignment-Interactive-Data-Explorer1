@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { motion } from 'framer-motion';
-import CategoryFilter from './components/categoryFilter';
+import CategoryFilter from './components/CategoryFilter';
 import SortMenu from './components/SortMenu';
-import ProductCard from './components/productcard';
-import ProductDetail from './components/productDetail';
+import ProductCard from './components/ProductCard';
+import ProductDetail from './components/ProductDetail';
 import Loading from './components/Loading';
 import ErrorMessage from './components/ErrorMessage';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 

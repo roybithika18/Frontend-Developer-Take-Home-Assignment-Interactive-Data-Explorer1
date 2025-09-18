@@ -20,4 +20,4 @@ function ProductCard({ product, viewDetails }) {
   );
 }
 
-export default ProductCard;
+export default ProductCard
