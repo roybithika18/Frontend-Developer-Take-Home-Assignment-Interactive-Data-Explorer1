@@ -3,7 +3,7 @@ import React from 'react';
 function CategoryFilter({ categories, selectedCategory, setSelectedCategory }) {
   return (
     <div className="mb-4 text-center">
-      {/* All button */}
+      
       <button
         className={`btn btn-outline-primary mx-1 ${selectedCategory === 'all' ? 'active' : ''}`}
         onClick={() => setSelectedCategory('all')}
@@ -18,7 +18,7 @@ function CategoryFilter({ categories, selectedCategory, setSelectedCategory }) {
           className={`btn btn-outline-primary mx-1 ${selectedCategory === category.slug ? 'active' : ''}`}
           onClick={() => setSelectedCategory(category.slug)}
         >
-          {category.name}  {/* ✅ show readable category name */}
+          {category.name}  
         </button>
       ))}
     </div>
