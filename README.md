@@ -1,12 +1,43 @@
-# React + Vite
+📊 Interactive Data Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my Frontend Developer Assignment Project.
+I built it using React, Vite, Bootstrap, and CSS.
 
-Currently, two official plugins are available:
+It’s a small app where you can search, filter, and sort data in an easy and interactive way. The design is simple, fast, and works well on both desktop and mobile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ What it can do
 
-## Expanding the ESLint configuration
+🔍 Search through data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 Filter and sort information
+
+📊 Show data in a clean, easy-to-read format
+
+📱 Works on both mobile and desktop screens
+
+🚀 How to run the project
+
+Download or clone this project.
+
+Open the folder in your code editor.
+
+Run this command to install everything:
+
+npm install
+
+
+Start the project with:
+
+npm run dev
+
+
+Open your browser and go to http://localhost:5173/
+
+🌐 Live Demo
+
+You can check it out here:
+👉 Click to Open Project
+
+👩‍💻 About Me
+
+I’m Bithika Roy, and I made this project as part of my frontend assignment.
