@@ -1,43 +1,70 @@
-📊 Interactive Data Explorer
+This is a React + Vite project where users can explore products, filter them by category, sort them, and view product details.
+It fetches real product data from the DummyJSON API
+.
 
-This is my Frontend Developer Assignment Project.
-I built it using React, Vite, Bootstrap, and CSS.
+🚀 Features
 
-It’s a small app where you can search, filter, and sort data in an easy and interactive way. The design is simple, fast, and works well on both desktop and mobile.
+✅ Browse a list of products
 
-✨ What it can do
+✅ Filter by category (e.g., smartphones, laptops, fragrances)
 
-🔍 Search through data
+✅ Sort by price or title (ascending & descending)
 
-📂 Filter and sort information
+✅ View product details with description and image
 
-📊 Show data in a clean, easy-to-read format
+✅ Loading and error handling states
 
-📱 Works on both mobile and desktop screens
+✅ Clean UI with Bootstrap styling
 
-🚀 How to run the project
+✅ Bonus 1: Advanced animations with Framer Motion
 
-Download or clone this project.
+Smooth page transitions
 
-Open the folder in your code editor.
+Staggered grid animations
 
-Run this command to install everything:
+Spring-based natural motion effects
 
+🖼️ Live Demo
+
+https://frontend-developer-take-home-assign.vercel.app/
+
+🛠️ Tech Stack
+
+React + Vite (frontend framework & build tool)
+
+Bootstrap (styling)
+
+Framer Motion (animations & transitions)
+
+Axios (API calls)
+
+DummyJSON API (fake product data)
+
+📂 Project Structure
+src/
+│── components/
+│ ├── CategoryFilter.jsx
+│ ├── SortMenu.jsx
+| ├── Pagination.jsx
+│ ├── ProductCard.jsx
+│ ├── ProductDetail.jsx
+│ ├── Loading.jsx
+│ └── ErrorMessage.jsx
+│
+│── App.jsx
+│── App.css
+│── main.jsx
+
+⚡ Getting Started
+1️⃣ Clone the repo
+git clone https://github.com/roybithika18/Frontend-Developer-Take-Home-Assignment-Interactive-Data-Explorer1.git
+cd Frontend-Developer-Take-Home-Assignment-Interactive-Data-Explorer1
+
+2️⃣ Install dependencies
 npm install
 
-
-Start the project with:
-
+3️⃣ Run locally
 npm run dev
 
-
-Open your browser and go to http://localhost:5173/
-
-🌐 Live Demo
-You can check it out here:
-👉 https://frontend-developer-take-home-assignment-interactive-hyd4xcyok.vercel.app/
-
-
-👩‍💻 About Me
-
-I’m Bithika Roy, and I made this project as part of my frontend assignment.
+4️⃣ Build for production
+npm run build
