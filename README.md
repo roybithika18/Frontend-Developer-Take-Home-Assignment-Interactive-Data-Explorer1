@@ -34,9 +34,9 @@ npm run dev
 Open your browser and go to http://localhost:5173/
 
 🌐 Live Demo
-https://frontend-developer-take-home-assignment-interactive-hyd4xcyok.vercel.app/
 You can check it out here:
-👉 Click to Open Project
+👉 https://frontend-developer-take-home-assignment-interactive-hyd4xcyok.vercel.app/
+
 
 👩‍💻 About Me
 
